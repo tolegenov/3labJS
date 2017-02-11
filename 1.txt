@@ -1,0 +1,12 @@
+<html>
+</html>
+<script>
+
+function get_max(a,b)
+{
+    var max = Math.max(a,b);
+    return max;
+}
+
+alert(get_max(96,100));
+</script>
