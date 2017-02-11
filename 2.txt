@@ -1,0 +1,12 @@
+<html>
+</html>
+<script>
+
+function get_min(a,b)
+{
+    var min = Math.min(a,b);
+    return min;
+}
+
+alert(get_min(198,-2000));
+</script>
