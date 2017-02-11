@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+
+var a = 5
+alert(typeof a) // "number"
+
+var a = 'test'
+alert(typeof a) // "string"
+
+</script>
+</script>
+</body>
+</html>
