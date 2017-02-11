@@ -1,0 +1,21 @@
+<html >
+<body>
+<script>
+var arr = [1996,-2000,55,147,2365,15469],
+fMax;
+function getMax(arr) {
+var arrLen = arr.length,
+maxEl = arr[0];
+for (var i = 0; i < arrLen; i++) {
+if (maxEl < arr[i]) {
+maxEl = arr[i];
+}
+}
+return maxEl;
+}
+fMax = getMax(arr);
+console.log(fMax);
+document.write(" Улкен сан = " + fMax);
+</script>
+</body>
+</html>
